@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61">
+  <g id="count-booking-demo" transform="translate(-691 -472)">
+    <g id="Group_112" data-name="Group 112">
+      <g id="Icon_ionic-md-man" data-name="Icon ionic-md-man" transform="translate(708.906 469.75)">
+        <path id="Path_2032" data-name="Path 2032" d="M18,7.5a2.623,2.623,0,1,0-2.623-2.623A2.614,2.614,0,0,0,18,7.5Z" fill="#1f78b4"/>
+        <path id="Path_2033" data-name="Path 2033" d="M20.63,8.086H15.37a3.366,3.366,0,0,0-3.277,3.4v7.988a1.092,1.092,0,1,0,2.18,0V12.094H14.7V32.175a1.513,1.513,0,1,0,3.023,0V20.6h.563v11.58a1.513,1.513,0,1,0,3.023-.007V12.094h.352v7.383a1.126,1.126,0,1,0,2.25,0V11.489A3.375,3.375,0,0,0,20.63,8.086Z" fill="#1f78b4"/>
+      </g>
+      <g id="Icon_ionic-md-man-2" data-name="Icon ionic-md-man" transform="translate(692.906 469.75)">
+        <path id="Path_2032-2" data-name="Path 2032" d="M18,7.5a2.623,2.623,0,1,0-2.623-2.623A2.614,2.614,0,0,0,18,7.5Z" fill="#1f78b4"/>
+        <path id="Path_2033-2" data-name="Path 2033" d="M20.63,8.086H15.37a3.366,3.366,0,0,0-3.277,3.4v7.988a1.092,1.092,0,1,0,2.18,0V12.094H14.7V32.175a1.513,1.513,0,1,0,3.023,0V20.6h.563v11.58a1.513,1.513,0,1,0,3.023-.007V12.094h.352v7.383a1.126,1.126,0,1,0,2.25,0V11.489A3.375,3.375,0,0,0,20.63,8.086Z" fill="#1f78b4"/>
+      </g>
+    </g>
+    <text id="Количество_броней" data-name="Количество
+броней" transform="translate(721 518)" fill="#fff" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.07em"><tspan x="-29.898" y="0">Количество</tspan><tspan x="-18.92" y="12">броней</tspan></text>
+  </g>
+</svg>

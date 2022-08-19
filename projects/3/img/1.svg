@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="153" viewBox="0 0 175 153">
+  <g id="_1" data-name="1" transform="translate(-350 -1493)">
+    <g id="Group_4" data-name="Group 4">
+      <g id="Subtraction_1" data-name="Subtraction 1" transform="translate(352 1493)" fill="#fff">
+        <path d="M 94.50030517578125 25.5 L 45.50009918212891 25.5 L 45.50009918212891 9.999899864196777 C 45.50009918212891 5.313039779663086 49.31313705444336 1.5 54 1.5 L 86.00041198730469 1.5 C 90.68727111816406 1.5 94.50030517578125 5.313039779663086 94.50030517578125 9.999899864196777 L 94.50030517578125 25.5 Z" stroke="none"/>
+        <path d="M 93.00030517578125 24 L 93.00030517578125 9.999899864196777 C 93.00030517578125 6.140140056610107 89.86016845703125 3 86.00041198730469 3 L 54 3 C 50.14023971557617 3 47.00009918212891 6.140140056610107 47.00009918212891 9.999899864196777 L 47.00009918212891 24 L 93.00030517578125 24 M 96.00030517578125 27 L 44.00009918212891 27 L 44.00009918212891 9.999899864196777 C 44.00009918212891 4.485939979553223 48.48603820800781 -1.77635683940025e-15 54 -1.77635683940025e-15 L 86.00041198730469 -1.77635683940025e-15 C 91.51436614990234 -1.77635683940025e-15 96.00030517578125 4.485939979553223 96.00030517578125 9.999899864196777 L 96.00030517578125 26.99900054931641 L 96.00030517578125 27 Z" stroke="none" fill="#707070"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" y1="26.423" transform="translate(396.5 1519.5)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_2" data-name="Line 2" y1="26.423" transform="translate(447.5 1519.5)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_3" data-name="Line 3" x2="14" transform="translate(389.5 1545.923)" fill="none" stroke="#707070" stroke-width="3"/>
+      <line id="Line_4" data-name="Line 4" x2="14" transform="translate(440.5 1545.923)" fill="none" stroke="#707070" stroke-width="3"/>
+    </g>
+    <g id="Group_7" data-name="Group 7">
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(350 1519)" fill="#fff" stroke="#707070" stroke-linejoin="round" stroke-width="3">
+        <rect width="144" height="111" rx="5" stroke="none"/>
+        <rect x="1.5" y="1.5" width="141" height="108" rx="3.5" fill="none"/>
+      </g>
+      <g id="Group_6" data-name="Group 6">
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(442 1566)" fill="#fff" stroke="#707070" stroke-width="3">
+          <ellipse cx="41.5" cy="40" rx="41.5" ry="40" stroke="none"/>
+          <ellipse cx="41.5" cy="40" rx="40" ry="38.5" fill="none"/>
+        </g>
+        <g id="Group_5" data-name="Group 5" transform="translate(374.25 -61.194) rotate(13)">
+          <line id="Line_5" data-name="Line 5" x2="16" y2="19" transform="translate(465.5 1604.5)" fill="none" stroke="#4cde47" stroke-linecap="round" stroke-width="3"/>
+          <line id="Line_6" data-name="Line 6" x1="15" y2="47" transform="translate(481.5 1576.5)" fill="none" stroke="#4cde47" stroke-linecap="round" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

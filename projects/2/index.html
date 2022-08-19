@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WorldWide</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<div class="burger-menu">
+					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="18" viewBox="0 0 32 18">
+					  <g id="Group_100" data-name="Group 100" transform="translate(-363.5 -18.5)">
+					    <line id="Line_45" data-name="Line 45" x2="30" transform="translate(364.5 19.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+					    <line id="Line_46" data-name="Line 46" x2="30" transform="translate(364.5 27.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+					    <line id="Line_47" data-name="Line 47" x2="30" transform="translate(364.5 35.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+					  </g>
+					</svg>
+				</div>
+				<ul class="nav-menu">
+					<li>
+						<a href="booking.html">Преимущества</a>
+					</li>
+					<li>
+						<a href="#search">Поиск рейсов</a>
+					</li>
+					<li>
+						<a href="index.html"><img src="img/Logo.svg" alt="logo" width="200"></a>
+					</li>
+					<li>
+						<a href="#stock">Наши акции</a>
+					</li>
+					<li>
+						<a href="login.html">Личный кабинет</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="main">
+			<div class="container">
+				<div class="main__content">
+					<h1>Ваши мечты - наши крылья</h1>
+					<p>Бронирование перелетов. Получите скидку 20%, если <br> пассажиров будет больше 50% посадочных мест</p>
+				</div>
+				<div class="infographics">
+					<div class="infographics__content">
+						<div class="infographics__circle">
+							<svg viewBox="0 0 250 250" width="250" height="250" preserveAspectRatio="xMidYMid" >
+								<g fill="none" stroke-width="15" stroke-dasharray="0,20000">
+								    <circle cx="50%" cy="50%" r="57" id="cost-demo" stroke="#1988D2" />
+								    <circle cx="50%" cy="50%" r="80" id="book-demo" stroke="#00B2CF" />
+								    <circle cx="50%" cy="50%" r="100" id="chance-demo" stroke="#1F78B4" />
+								    <text id="myTimer" text-anchor="middle" x="127" y="135" style="font-size: 28px; fill: #fff;">0%</text>
+								</g>
+							</svg>
+						</div>
+						<img src="img/icons/chance-demo.svg" class="infographics__icon" alt="chance-demo">
+						<img src="img/icons/cost-demo.svg" class="infographics__icon" alt="cost-demo">
+						<img src="img/icons/count-booking-demo.svg" class="infographics__icon" alt="count-booking-demo">
+					</div>
+					<div class="infographics__form">
+						<div class="input-group">
+							<label for="">Выберите дату вылета:</label>
+							<input type="date">
+						</div>
+						<div class="input-group input--range">
+							<label for="">Число бронирований</label>
+							<!-- iri - input range infographics -->
+							<input type="range" id="iri" value="24" min="1" max="48">
+							<div id="iri-value">24 из 48</div>
+						</div>
+						<div class="input-group">
+							<label for="">Выберите дату возвращения:</label>
+							<input type="date">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<div class="about-content">
+					<h2>О Компании</h2>
+					<p>Компания «FlightPool» - новая и энергичная авиакомпания, предоставляющая
+					услуги пассажирских авиаперевозок небольшими малогабаритными самолетами. Главная цель
+					компании - развить связность между городами России путем организации авиасообщений на
+					непостоянной основе по мере накопления запросов на перелет.</p>
+				</div>
+			</div>
+		</section>
+		<section id="search" class="search">
+			<div class="container">
+				<h2>Найдите подходящий билет</h2>
+				<div class="search__substrate">
+					<form class="search-form">
+						<div class="input-group">
+							<label>Откуда:</label>
+							<input type="text" class="test-0-fd" placeholder="Los Angeles">
+						</div>
+						<div class="input-group">
+							<label>Куда:</label>
+							<input type="text" class="test-0-fa" placeholder="San Francisco">
+						</div>
+						<div class="input-group">
+							<label>Туда:</label>
+							<input type="date" class="test-0-fdt">
+						</div>
+						<div class="input-group">
+							<label>Обратно:</label>
+							<input type="date" class="test-0-fat">
+						</div>
+						<div class="input-group">
+							<label>Кол-во пассажиров</label>
+							<input type="text" class="test-0-fnp" placeholder="1">
+						</div>
+						<a href="search.html" class="btn--secondary test-0-fbs">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 35.998 36.003">
+							  <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M35.508,31.127l-7.01-7.01a1.686,1.686,0,0,0-1.2-.492H26.156a14.618,14.618,0,1,0-2.531,2.531V27.3a1.686,1.686,0,0,0,.492,1.2l7.01,7.01a1.681,1.681,0,0,0,2.384,0l1.99-1.99a1.7,1.7,0,0,0,.007-2.391Zm-20.883-7.5a9,9,0,1,1,9-9A8.995,8.995,0,0,1,14.625,23.625Z" fill="#fff"/>
+							</svg>
+
+							Искать
+						</a>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section id="stock" class="stock">
+			<div class="container">
+				<h2>Наши акции</h2>
+				<div class="stack-horizontal">
+					<div class="stock__item">
+						<img src="img/promotions/promotion1.jpg" class="test-0-ai" alt="stock">
+						<div class="stock__description">
+							<h3 class="test-0-an">Returning and Changing Your Tickets</h3>
+							<p class="test-0-ad">The pandemic has changed many travelers’ plans, but we know that it will not last forever. Once all of this is over, we will continue exploring this world the way we used to. 
+							Special rules that have been developed for this challenging situation will help you cancel your trip
+							or postpone it until later.</p>
+						</div>
+						<a href="#" class="btn--link test-0-abm">Подробнее</a>
+					</div>
+					<div class="stock__item">
+						<img src="img/promotions/promotion2.jpg" class="test-0-ai" alt="stock">
+						<div class="stock__description">
+							<h3 class="test-0-an">Best offers</h3>
+							<p class="test-0-ad">To see again the streets that witnessed so much. To hug your beloved ones and look back to see what you’ve come through. And to think of new dreams that will be so special!</p>
+						</div>
+						<button class="btn--link test-0-abm">Подробнее</button>
+					</div>
+					<div class="stock__item">
+						<img src="img/promotions/promotion1.jpg" class="test-0-ai" alt="stock">
+						<div class="stock__description">
+							<h3 class="test-0-an">See you more often</h3>
+							<p class="test-0-ad">Since the beginning of January, we have been expanding the geography of flights in Russia so that you can see your loved ones more often. Choose our company to fly to where you are always expected.</p>
+						</div>
+						<a href="#" class="btn--link test-0-abm">Подробнее</a>
+					</div>
+					<div class="stock__item">
+						<img src="img/promotions/promotion2.jpg" class="test-0-ai" alt="stock">
+						<div class="stock__description">
+							<h3 class="test-0-an">Everything is on again</h3>
+							<p class="test-0-ad">From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.</p>
+						</div>
+						<button class="btn--link test-0-abm">Подробнее</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="special-offer">
+			<div class="container">
+				<h2 class="special-offer__title">
+					Оставьте заявку, <span>чтобы получать уникальные предложения каждую неделю!</span>
+				</h2>
+				<form>
+					<div class="special-offer__content">
+						<input type="text" placeholder="Email@gmai.com" class="test-0-sie">
+						<button class="btn--primary test-0-sbs">Отправить заявку</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footer">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.svg" class="test-0-logo" alt="logo" width="200"></a>
+				</div>
+				<nav>
+					<h4>Site Map</h4>
+					<ul class="nav-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="register.html">Sign up</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/News">News</a></li>
+						<li><a href="/return">Return</a></li>
+						<li><a href="/feedback">Feedback</a></li>
+					</ul>
+				</nav>
+				<div class="contact">
+					<h4>Contact</h4>
+					<p>+7 (900) 000 00-00</p>
+				</div>
+			</div>
+			<div class="copyright">Copyright © Виктор Кайсаров 2020. Все права защищены.</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
